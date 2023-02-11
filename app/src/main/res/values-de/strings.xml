@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app.title">Telemetrie</string>
+  <string name="app.subtitle">mähdrescher</string>
+  <string name="auth.login">Anmeldung</string>
+  <string name="auth.register">Registrieren</string>
+</resources>

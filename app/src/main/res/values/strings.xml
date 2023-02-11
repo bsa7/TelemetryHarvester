@@ -1,3 +1,7 @@
 <resources>
-  <string name="app_name">TelemetryHarvester</string>
+  <string name="app_name" translatable="false">TelemetryHarvester</string>
+  <string name="app.title">Telemetry</string>
+  <string name="app.subtitle">harvester</string>
+  <string name="auth.login">Login</string>
+  <string name="auth.register">Register</string>
 </resources>
