@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app.title">Télémétrie</string>
+  <string name="app.subtitle">moissonneur</string>
+  <string name="auth.login">Entrer</string>
+  <string name="auth.register">Enregistrer</string>
+</resources>
