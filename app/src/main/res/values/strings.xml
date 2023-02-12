@@ -1,7 +1,15 @@
 <resources>
   <string name="app_name" translatable="false">TelemetryHarvester</string>
-  <string name="app.title">Telemetry</string>
-  <string name="app.subtitle">harvester</string>
   <string name="auth.login">Login</string>
   <string name="auth.register">Register</string>
+  <string name="app.menu.dashboard">Dashboard</string>
+  <string name="app.menu.others">Others</string>
+  <string name="app.menu.others.about">About us</string>
+  <string name="app.menu.others.license">License info</string>
+  <string name="app.menu.profile">My profile</string>
+  <string name="app.menu.settings">Settings</string>
+  <string name="app.navigation_header_layout.unknown_person">Unknown person</string>
+  <string name="app.navigation_header_layout.unverified">Unverified yet</string>
+  <string name="app.subtitle">harvester</string>
+  <string name="app.title">Telemetry</string>
 </resources>

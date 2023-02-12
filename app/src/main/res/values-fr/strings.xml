@@ -4,4 +4,12 @@
   <string name="app.subtitle">moissonneur</string>
   <string name="auth.login">Entrer</string>
   <string name="auth.register">Enregistrer</string>
+  <string name="app.menu.profile">Mon profil</string>
+  <string name="app.menu.dashboard">Tableau de bord</string>
+  <string name="app.menu.settings">Paramètres</string>
+  <string name="app.menu.others">Autres</string>
+  <string name="app.menu.others.about">À propos de nous</string>
+  <string name="app.menu.others.license">Informations sur la licence</string>
+  <string name="app.navigation_header_layout.unknown_person">Personne inconnue</string>
+  <string name="app.navigation_header_layout.unverified">Non encore vérifié</string>
 </resources>
