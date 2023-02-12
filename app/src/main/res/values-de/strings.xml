@@ -4,4 +4,12 @@
   <string name="app.subtitle">mähdrescher</string>
   <string name="auth.login">Anmeldung</string>
   <string name="auth.register">Registrieren</string>
+  <string name="app.menu.profile">Mein Profil</string>
+  <string name="app.menu.dashboard">Armaturenbrett</string>
+  <string name="app.menu.settings">Einstellungen</string>
+  <string name="app.menu.others">Andere</string>
+  <string name="app.menu.others.about">Über uns</string>
+  <string name="app.menu.others.license">Lizenzinformationen</string>
+  <string name="app.navigation_header_layout.unknown_person">Unbekannte Person</string>
+  <string name="app.navigation_header_layout.unverified">Noch unbestätigt</string>
 </resources>

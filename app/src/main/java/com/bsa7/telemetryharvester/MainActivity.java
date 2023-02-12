@@ -1,33 +1,37 @@
 package com.bsa7.telemetryharvester;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.ui.NavigationUI;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
 
-public class MainActivity extends AppCompatActivity {
-  private Button loginButton;
+import com.google.android.material.navigation.NavigationView;
 
+public class MainActivity extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    loginButton = (Button) findViewById(R.id.login_button);
-    loginButton.setOnClickListener(this.onLoginButtonClickListener);
+    findViewById(R.id.menuIcon).setOnClickListener(handleMenuIconClick);
+
+    NavigationView navigationView = findViewById(R.id.navigationView);
+    NavController navController = Navigation.findNavController(this, R.id.navHostFragment);
+    NavigationUI.setupWithNavController(navigationView, navController);
   };
 
-  private View.OnClickListener onLoginButtonClickListener = new View.OnClickListener() {
+  private View.OnClickListener handleMenuIconClick = new View.OnClickListener() {
     @Override
     public void onClick(View v) {
-      openLoginActivity();
+      DrawerLayout drawerLayout = findViewById(R.id.drawerLayout);
+      drawerLayout.openDrawer(GravityCompat.START);
     }
-  };
-
-  public void openLoginActivity() {
-    Intent intent = new Intent(this, LoginActivity.class);
-    startActivity(intent);
   };
 }

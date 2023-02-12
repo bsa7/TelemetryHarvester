@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/main"
+  app:startDestination="@id/menuDashboard">
+  <fragment
+    android:id="@+id/menuDashboard"
+    android:name="com.bsa7.telemetryharvester.DashboardFragment"
+    android:label="@string/app.menu.dashboard"
+    tools:layout="@layout/dashboard_fragment" />
+  <fragment
+    android:id="@+id/menuProfile"
+    android:name="com.bsa7.telemetryharvester.ProfileFragment"
+    android:label="@string/app.menu.profile"
+    tools:layout="@layout/profile_fragment" />
+  <fragment
+    android:id="@+id/menuSettings"
+    android:name="com.bsa7.telemetryharvester.SettingsFragment"
+    android:label="@string/app.menu.settings"
+    tools:layout="@layout/settings_fragment" />
+</navigation>

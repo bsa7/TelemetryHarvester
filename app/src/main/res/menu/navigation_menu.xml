@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+    android:id="@+id/menuProfile"
+    android:icon="@drawable/ic_profile"
+    android:title="@string/app.menu.profile" />
+
+  <item
+    android:id="@+id/menuDashboard"
+    android:icon="@drawable/ic_dashboard"
+    android:title="@string/app.menu.dashboard" />
+
+<!--  <item android:title="@string/app.menu.others">-->
+<!--    <menu>-->
+<!--      <item-->
+<!--        android:id="@+id/menu.others.about"-->
+<!--        android:icon="@drawable/ic_about"-->
+<!--        android:title="@string/app.menu.others.about" />-->
+
+<!--      <item-->
+<!--        android:id="@+id/menu.others.license"-->
+<!--        android:icon="@drawable/ic_license"-->
+<!--        android:title="@string/app.menu.others.license" />-->
+<!--    </menu>-->
+<!--  </item>-->
+
+  <item
+    android:id="@+id/menuSettings"
+    android:icon="@drawable/ic_settings"
+    android:title="@string/app.menu.settings"/>
+</menu>
